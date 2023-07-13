@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/alex-gerera/static/css/main.e6c13ad2.css",
-    "main.js": "/alex-gerera/static/js/main.2f2184b9.js",
+    "main.css": "/alex-gerera/static/css/main.51d51bb4.css",
+    "main.js": "/alex-gerera/static/js/main.51cce93c.js",
+    "static/media/main.jpg": "/alex-gerera/static/media/main.0b0b03deb72bce331583.jpg",
     "index.html": "/alex-gerera/index.html",
-    "main.e6c13ad2.css.map": "/alex-gerera/static/css/main.e6c13ad2.css.map",
-    "main.2f2184b9.js.map": "/alex-gerera/static/js/main.2f2184b9.js.map"
+    "main.51d51bb4.css.map": "/alex-gerera/static/css/main.51d51bb4.css.map",
+    "main.51cce93c.js.map": "/alex-gerera/static/js/main.51cce93c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.2f2184b9.js"
+    "static/css/main.51d51bb4.css",
+    "static/js/main.51cce93c.js"
   ]
 }
