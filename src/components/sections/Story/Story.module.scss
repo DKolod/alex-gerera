@@ -1,0 +1,39 @@
+.storySection {
+  height: 305px;
+  padding: 21px 17px 16px 17px;
+  background-color: #0f0f0f;
+  
+}
+.storyTopThump{
+  display: flex;
+  align-items: center;
+}
+
+.storyTitle {
+  font-family: Playfair Display;
+  font-size: 32.821px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+}
+
+.storyIcom {
+  width: 46px;
+  height: 76px;
+  margin-left: auto;
+}
+
+.storyText {
+  font-family: Playfair Display;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+}
+
+.storyText:first-of-type {
+  margin-top: 15px;
+}
+.storyText + .storyText {
+  margin-top: 26px;
+}

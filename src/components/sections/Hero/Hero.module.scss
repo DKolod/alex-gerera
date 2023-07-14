@@ -1,12 +1,128 @@
+body {
+  margin: 0;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 .heroSection {
-    
-    background: url(../../../images/main.jpg);
-       
-        width: 100vw;
-        height: 256px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/main.jpg);
+  // width: 100vw;
+  height: 256px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 16px 0 16px;
+}
+
+.heroText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroTitle {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+  transition: 250ms;
+  
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+      color: rgb(110, 110, 110);
+    }
+  
+  
+}
+
+.heroItem a {
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+  transition: 250ms;
+  
+  
+    &:hover,
+    &:focus {
+      
+      color: rgba(185, 98, 98, 0.699);
+    }
+}
+.heroItem{
+  position: relative;
+
+}
+.heroItem::after{
+  content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    background: #f38181;
+    transition: width 0.5s, left 0.5s;
+}
+.heroItem:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+
+
+
+.heroItem + .heroItem {
+  margin-top: 9px;
+}
+
+.heroBottomText {
+  text-align: center;
+  margin-top: 80px;
+  color: #fff;
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+}
+.heroIcom {
+  fill: #fff;
+  height: 41px;
+  width: 100%;
+  margin-top: 6px;
+  transition: 250ms;
+  
+    &:hover,
+    &:focus {
+      transform: scale(1.3);
+  
+    }
 }
