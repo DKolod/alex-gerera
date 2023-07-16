@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/alex-gerera/static/css/main.9a4f31c9.css",
-    "main.js": "/alex-gerera/static/js/main.4cde10d9.js",
+    "main.css": "/alex-gerera/static/css/main.ba8b4f3e.css",
+    "main.js": "/alex-gerera/static/js/main.691fd6f7.js",
     "static/media/main.jpg": "/alex-gerera/static/media/main.0b0b03deb72bce331583.jpg",
     "static/media/map-mob.jpg": "/alex-gerera/static/media/map-mob.b5a38d2c74d0091435f4.jpg",
-    "static/media/icons.svg": "/alex-gerera/static/media/icons.9fc2f484bd292652bacdf4d5ce7e63e5.svg",
+    "static/media/icons.svg": "/alex-gerera/static/media/icons.35ae5e80aef9dd4daa5204f25c5e856f.svg",
     "index.html": "/alex-gerera/index.html",
-    "main.9a4f31c9.css.map": "/alex-gerera/static/css/main.9a4f31c9.css.map",
-    "main.4cde10d9.js.map": "/alex-gerera/static/js/main.4cde10d9.js.map"
+    "main.ba8b4f3e.css.map": "/alex-gerera/static/css/main.ba8b4f3e.css.map",
+    "main.691fd6f7.js.map": "/alex-gerera/static/js/main.691fd6f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a4f31c9.css",
-    "static/js/main.4cde10d9.js"
+    "static/css/main.ba8b4f3e.css",
+    "static/js/main.691fd6f7.js"
   ]
 }
