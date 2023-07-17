@@ -8,6 +8,14 @@
   justify-content: center;
   align-items: center;
   transition: 250ms;
+  @media screen and (min-width: 450px) {
+    width: 20px;
+      height: 20px;
+      border-radius: 6px;
+        margin-right: 25px;
+      
+  
+    }
 
   &:hover,
   &:focus {
@@ -20,14 +28,20 @@
     fill: #fff;
     display: block;
     transition: 250ms;
+    @media screen and (min-width: 450px) {
+      width: 20px;
+        height: 20px;
+        
+    
+    
+      }
 
 
   }
 }
 
 .instagram {
-  width: 6px;
-  height: 6px;
+ 
   background-color: #f09433;
   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
   background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);

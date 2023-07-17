@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.scss';
-import MapMob from 'images/map-mob.jpg';
+import MapMob from 'images/map-tablet.jpg';
 import sprite from 'images/icons.svg';
 import SocialLinkList from 'components/share/SocialLinkList';
 

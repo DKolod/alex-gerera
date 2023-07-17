@@ -9,25 +9,25 @@ const Portfolio = () => {
       <ul className={styles.portfolioList}>
         <li className={styles.portfolioItem}>
           <p>Intimate photo session</p>
-          <svg className={styles.portfolioIcon} width={10} height={10}>
+          <svg className={styles.portfolioIcon}>
             <use href={sprite + '#heart'} />
           </svg>
         </li>
         <li className={styles.portfolioItem}>
-          <svg className={styles.portfolioIcon} width={10} height={10}>
+          <svg className={styles.portfolioIcon}>
             <use href={sprite + '#business'} />
           </svg>
           <p>Business photo session</p>
         </li>
         <li className={styles.portfolioItem}>
           <p>Wedding photo session</p>
-          <svg className={styles.portfolioIcon} width={15} height={16}>
+          <svg className={styles.portfolioIcon}>
             <use href={sprite + '#ring'} />
           </svg>
         </li>
         <li className={styles.portfolioItem}>
           <p>Casual photo session</p>
-          <svg className={styles.portfolioIcon} width={15} height={16}>
+          <svg className={styles.portfolioIcon}>
             <use href={sprite + '#headphones'} />
           </svg>
         </li>
