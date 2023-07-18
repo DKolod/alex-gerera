@@ -1,32 +1,4 @@
-body {
-  margin: 0;
-  color: #fff;
-  background-color: #000;
-}
 
-* {
-  box-sizing: border-box;
-}
-
-p,
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
 .heroSection {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../../images/main.jpg);
   height: 256px;
