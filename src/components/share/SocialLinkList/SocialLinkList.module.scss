@@ -1,17 +1,16 @@
 .linkList {
-    height: 8px;
-    display: flex;
-    justify-content: center;
-    
-    margin-right: -12px;
-    margin-top: 16px;
-    // padding: 24px 0;
-    @media screen and (min-width: 450px) {
-        height: 20px;
-        margin-top: 20px;
-        margin-right: -25px;
-            
-        }
+  height: 8px;
+  display: flex;
+  justify-content: center;
 
-   
+  margin-top: 16px;
+
+  @media screen and (min-width: 450px) {
+    height: 20px;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 40px;
+    margin-top: 41px;
+  }
 }

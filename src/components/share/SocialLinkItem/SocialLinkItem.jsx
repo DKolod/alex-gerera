@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './SocialLinkItem.module.scss';
 
 const SocialLinkItem = ({ nameSocial, path, pathIcon }) => {
-  console.log(nameSocial);
   return (
     <li className={styles.socialLinkItem}>
       <a href={path} target="_blanc" rel="noopener noreferrer">

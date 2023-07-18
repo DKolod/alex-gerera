@@ -21,13 +21,13 @@ const Portfolio = () => {
         </li>
         <li className={styles.portfolioItem}>
           <p>Wedding photo session</p>
-          <svg className={styles.portfolioIcon}>
+          <svg className={`${styles.portfolioIcon} ${styles.ringIcon}`}>
             <use href={sprite + '#ring'} />
           </svg>
         </li>
         <li className={styles.portfolioItem}>
           <p>Casual photo session</p>
-          <svg className={styles.portfolioIcon}>
+          <svg className={`${styles.portfolioIcon} ${styles.headphonesIcon}`}>
             <use href={sprite + '#headphones'} />
           </svg>
         </li>

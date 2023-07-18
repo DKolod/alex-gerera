@@ -1,55 +1,63 @@
 .contactsSection {
-    position: relative;
-    height: 264px;
-        padding: 20px 20px 16px;
-        background-color: #0f0f0f;
-       
-        @media screen and (min-width: 450px) {
-                height: 530px;
-                padding: 41px 16px 47px;
-        
-        
-            }
-       
-        
-       
+  position: relative;
+  height: 264px;
+  padding: 20px 20px 16px;
+  background-color: #0f0f0f;
+  @media screen and (min-width: 450px) {
+    height: 530px;
+    padding: 41px 16px 47px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 1025px;
+    padding: 80px 30px 89px;
+  }
 }
 .contactsSection h2 {
-    font-family: Playfair Display;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 140.1%;
-        @media screen and (min-width: 450px) {
-                font-size: 32px;
-                
-            }
-        
+  font-family: Playfair Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.1%;
+  @media screen and (min-width: 450px) {
+    font-size: 32px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 61.935px;
+  }
 }
 .contactsSection img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 200px;
-    height: 150px;
-    @media screen and (min-width: 450px) {
-            margin-top: 45px;
-                width: 415px;
-                height: 310px;
-    
-        }
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 150px;
+  @media screen and (min-width: 450px) {
+    margin-top: 45px;
+    width: 415px;
+    height: 310px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 88px;
+    width: 799px;
+    height: 600px;
+  }
 }
-.contactsMainIcon{
-    width: 74px;
-    height: 80px;
-    margin-left: 49%;
-    position: absolute;
-    top: 48px;
-    @media screen and (min-width: 450px) {
-        width: 174px;
-            height: 164px;
-            margin-left: 51.5%;
-            top: 97px;
-        }
-    
+.contactsMainIcon {
+  width: 74px;
+  height: 80px;
+  margin-left: 49%;
+  position: absolute;
+  top: 48px;
+  @media screen and (min-width: 450px) {
+    width: 174px;
+    height: 164px;
+    margin-left: 51.5%;
+    top: 97px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 290px;
+    height: 316px;
+    margin-left: 52.2%;
+    top: 187px;
+  }
 }

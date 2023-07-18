@@ -3,14 +3,15 @@
   padding: 21px 17px 16px 17px;
   background-color: #0f0f0f;
   @media screen and (min-width: 450px) {
-      height: 405px;
-      padding: 32px 17px 47px 17px;
-      
-      
-    }
-  
+    height: 405px;
+    padding: 32px 17px 47px 17px;
+  }
+  @media screen and (min-width: 1440px) {
+    height: 752px;
+    padding: 80px 81px 81px 80px;
+  }
 }
-.storyTopThump{
+.storyTopThump {
   display: flex;
   align-items: center;
 }
@@ -22,22 +23,32 @@
   font-weight: 400;
   line-height: 140.1%;
   @media screen and (min-width: 450px) {
-      font-size: 49.6px;
-  
-    }
+    font-size: 49.6px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 64px;
+  }
 }
 
 .storyIcom {
   width: 46px;
   height: 76px;
   margin-left: auto;
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    transform: scale(1.4c);
+  }
   @media screen and (min-width: 450px) {
     width: 78px;
-      height: 96px;
-      margin-left: auto;
-        
-    }
-  
+    height: 96px;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 151px;
+    height: 186px;
+    margin-left: auto;
+  }
 }
 
 .storyText {
@@ -48,24 +59,27 @@
   line-height: 140.1%;
   @media screen and (min-width: 450px) {
     font-size: 18.6px;
-      
-  
-    }
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 36px;
+  }
 }
 
 .storyText:first-of-type {
   margin-top: 15px;
   @media screen and (min-width: 450px) {
-      margin-top: 33px;
-  
-  
-    }
+    margin-top: 33px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 39px;
+  }
 }
 .storyText + .storyText {
   margin-top: 26px;
   @media screen and (min-width: 450px) {
-      margin-top: 40px;
-  
-  
-    }
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-top: 64px;
+  }
 }
