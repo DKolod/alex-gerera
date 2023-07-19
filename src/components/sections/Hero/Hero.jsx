@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className={styles.heroTitle}>Alex Gerera</h1>
         <ul className={styles.heroList}>
           <li className={styles.heroItem}>
-            <a href="#Partfolio"> Partfolio</a>
+            <a href="#Portfolio"> Portfolio</a>
           </li>
           <li className={styles.heroItem}>
             <a href="#Story"> Story</a>

@@ -5,7 +5,7 @@ import sprite from 'images/icons.svg';
 const Portfolio = () => {
   return (
     <div id="Portfolio" className={styles.portfolioSection}>
-      <h2 className={styles.portfolioTitle}>Partfolio</h2>
+      <h2 className={styles.portfolioTitle}>Portfolio</h2>
       <ul className={styles.portfolioList}>
         <li className={styles.portfolioItem}>
           <p>Intimate photo session</p>
