@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/alex-gerera/static/css/main.684c682b.css",
-    "main.js": "/alex-gerera/static/js/main.5792151e.js",
+    "main.js": "/alex-gerera/static/js/main.9f7c57c0.js",
     "static/media/main.jpg": "/alex-gerera/static/media/main.0b0b03deb72bce331583.jpg",
     "static/media/map.jpg": "/alex-gerera/static/media/map.6ad3bda7e197999d31af.jpg",
     "static/media/icons.svg": "/alex-gerera/static/media/icons.cdcc482476294e04b66dc8dae2b71653.svg",
     "index.html": "/alex-gerera/index.html",
     "main.684c682b.css.map": "/alex-gerera/static/css/main.684c682b.css.map",
-    "main.5792151e.js.map": "/alex-gerera/static/js/main.5792151e.js.map"
+    "main.9f7c57c0.js.map": "/alex-gerera/static/js/main.9f7c57c0.js.map"
   },
   "entrypoints": [
     "static/css/main.684c682b.css",
-    "static/js/main.5792151e.js"
+    "static/js/main.9f7c57c0.js"
   ]
 }
