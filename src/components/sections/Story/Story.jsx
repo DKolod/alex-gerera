@@ -13,12 +13,12 @@ const Story = () => {
       </div>
 
       <p className={styles.storyText}>
-        Lorem ipsum dolor sit amet consectetur. Amet ornare vitae pellentesque sem pretium vestibulum dolor. Eget ac pharetra lobortis in donec ultrices id
-        arcu. Blandit ultrices nisl at mauris et. Mi nec magna felis pharetra mattis aliquam.
+        Я Алекс Герера, і хочу поділитися з вами своїм унікальним мистецтвом. Моя особливість полягає в тому, що я не просто фотограф, я творча особистість,
+        здатна перетворювати звичайні моменти на витвори мистецтва.
       </p>
       <p className={styles.storyText}>
-        Lorem ipsum dolor sit amet consectetur. Amet ornare vitae pellentesque sem pretium vestibulum dolor. Eget ac pharetra lobortis in donec ultrices id
-        arcu. Blandit ultrices nisl at mauris et. Mi nec magna felis pharetra mattis aliquam.
+        Побачити світ крізь мої очі - значить побачити його абсолютно по-новому. Дозвольте мені провести вас подорожжю, де кожна фотографія стане вікном в інший
+        світ.
       </p>
     </div>
   );
